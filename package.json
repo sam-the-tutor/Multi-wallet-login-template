@@ -21,7 +21,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
     "serve": "vite preview",
     "setup": "npm install && npm audit fix && dfx start --clean --background && dfx deploy && dfx stop && echo 'Setup complete!'"
   },
